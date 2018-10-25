@@ -1,0 +1,22 @@
+{
+  "name": "blogposts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanbeaty/blogPosts.git"
+  },
+  "author": "JB 2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanbeaty/blogPosts/issues"
+  },
+  "homepage": "https://github.com/jonathanbeaty/blogPosts#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
