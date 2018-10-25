@@ -2,8 +2,9 @@
   "name": "blogposts",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "mocha"
   },
   "repository": {
@@ -17,6 +18,18 @@
   },
   "homepage": "https://github.com/jonathanbeaty/blogPosts#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "devDependencies": {
+    "install": "^0.12.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "npm": "^6.4.1"
   }
 }
